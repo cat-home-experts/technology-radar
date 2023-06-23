@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Terraform",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Infrastructure as Code tool from HashiCorp that is used to manage infrastructure together with Platform managed modules."
+  },
+  {
+    "name": "Canary builds",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Many projects have external code dependencies ..."
+  },
+  {
+    "name": "Google Cloud run",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Serverless technology from Google Cloud Platform that allows you to run containers on a fully managed environment."
+  },
+  {
+    "name": "Retool",
+    "ring": "assess",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "A low-code platform for building internal tools."
+  },
+  {
+    "name": "TypeScript",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Typesafe javascript superset"
+  },
+  {
+    "name": "Ruby",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Still used in a few services, should be discontinued"
+  }
+]
