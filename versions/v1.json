@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Terraform",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Infrastructure as Code tool from HashiCorp that is used to manage infrastructure. Still the most commonly used IaC framework out there and uses a very simple and structured DSL to deploy resources and configuration to cloud providers and SaaS tools. The teams use this to deploy landingzones and resources for our services in Checkatrade with the support of Platform managed modules."
+  },
+  {
+    "name": "Github Copilot",
+    "ring": "trial",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "GitHub Copilot is an AI-powered coding assistant developed by OpenAI and GitHub. It provides real-time code suggestions and auto-completion based on context, allowing developers to write code faster and more efficiently by leveraging machine learning models trained on vast code repositories. It is currently in technical preview and only available to a limited number of users."
+  },
+  {
+    "name": "Event Driven Architecture",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Event-driven architecture (EDA) is a software design pattern that emphasizes the production, detection, and consumption of events. Events represent significant occurrences or changes in a system, and components communicate by publishing and subscribing to events. EDA promotes loose coupling, scalability, and flexibility, enabling systems to react and respond to events in a decoupled and asynchronous manner. It allows for event-driven workflows, real-time processing, and easier integration with external systems and services."
+  },
+  {
+    "name": "Data Mesh",
+    "ring": "assess",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "Data Mesh is an architectural approach that decentralizes data ownership and governance, treating data as a product. It advocates for self-serve data infrastructure, domain-oriented data teams, and data productization. Data Mesh aims to improve data quality, enable faster insights, and foster a culture of data-driven decision-making in organizations."
+  },
+  {
+    "name": "Google Cloud run",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Google Cloud Run is a serverless compute platform that enables developers to run containerized applications in a fully managed environment. It automatically scales based on demand, charges only for actual usage, and supports a wide range of programming languages. Cloud Run simplifies deployment and management, allowing developers to focus on building and shipping applications."
+  },
+  {
+    "name": "Google Cloud Functions",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Google Cloud Functions is a serverless compute service that allows developers to run event-driven functions in a managed environment. It automatically scales based on incoming events, charges for actual usage, and supports multiple programming languages. Cloud Functions simplifies development, deployment, and maintenance, enabling rapid creation of serverless applications."
+  },
+  {
+    "name": "Google Cloud Functions",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Google Cloud Functions is a serverless compute service that allows developers to run event-driven functions in a managed environment. It automatically scales based on incoming events, charges for actual usage, and supports multiple programming languages. Cloud Functions simplifies development, deployment, and maintenance, enabling rapid creation of serverless applications."
+  },
+  {
+    "name": "Snyk",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Snyk is a developer-first security platform that helps identify and fix vulnerabilities in open-source libraries and container images. It integrates seamlessly into the development workflow, providing real-time vulnerability scanning, automated patching, and actionable insights to enhance the security posture of applications and infrastructure."
+  },
+  {
+    "name": "Retool",
+    "ring": "assess",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Retool is a low-code development platform that empowers users to build internal tools quickly. It offers a drag-and-drop interface to create custom applications, dashboards, and workflows that connect to various data sources. Retool enables teams to streamline workflows, improve operational efficiency, and enhance data-driven decision-making within their organizations."
+  },
+  {
+    "name": "Mulesoft",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "MuleSoft is an integration platform that enables developers to connect applications, data, and devices across on-premises and cloud environments. It provides a unified platform for API management, data integration, and application integration, allowing organizations to build a connected enterprise. MuleSoft is used by the Platform team to integrate various systems and services within Checkatrade. All new development on the mulesoft platform should cease."
+  },
+  {
+    "name": "TypeScript",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "TypeScript is a statically typed superset of JavaScript that adds optional type annotations and compile-time type checking. It provides developers with enhanced tooling, improved code maintainability, and better error detection. TypeScript compiles to plain JavaScript, making it compatible with existing JavaScript codebases while adding static typing benefits"
+  },
+  {
+    "name": "dotnet 6",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": ".NET is a free, open-source framework for building various applications. It offers cross-platform support, performance improvements, enhanced APIs, and tooling for developing web, mobile, desktop, cloud, and IoT applications."
+  },
+  {
+    "name": "Ruby",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Still used in a few services, should be discontinued"
+  }
+]
