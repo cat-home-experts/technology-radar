@@ -63,11 +63,25 @@
     "description": "Codigy is a tool for repository visualizations and understanding relations between code, it can also produce engineering metrics based on DORA and other metrics. It is a tool that can be used to understand the codebase and the relationships between the code."
   },
   {
+    "name": "Code Climate Velocity",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "CCode Climate Velocity is a software engineering analytics platform that provides insights into team productivity and code quality. It analyzes data from code repositories and issue tracking systems to measure team performance, identify bottlenecks, and deliver actionable recommendations for improving engineering processes and efficiency."
+  },
+  {
     "name": "Atlassian JIRA",
     "ring": "adopt",
     "quadrant": "tools",
     "isNew": "FALSE",
-    "description": "Jira is a widely used project management and issue tracking software by Atlassian. It helps teams plan, track, and manage projects and tasks. With features like customizable workflows, agile boards, reporting, and integration options, Jira facilitates collaboration, improves productivity, and provides visibility into the progress and status of projects.y"
+    "description": "Jira is a widely used project management and issue tracking software by Atlassian. It helps teams plan, track, and manage projects and tasks. With features like customizable workflows, agile boards, reporting, and integration options, Jira facilitates collaboration, improves productivity, and provides visibility into the progress and status of projects."
+  },
+  {
+    "name": "Atlassian Confluence",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Atlassian Confluence is a collaboration and documentation platform that enables teams to create, organize, and share knowledge. It provides tools for creating pages, blogs, and spaces, allowing teams to collaborate, document processes, track project progress, and foster knowledge sharing within the organization. Confluence improves team productivity and promotes effective collaboration."
   },
   {
     "name": "Jenkins",
@@ -88,14 +102,14 @@
     "ring": "assess",
     "quadrant": "techniques",
     "isNew": "TRUE",
-    "description": "CI/CD as a service (Continuous Integration/Continuous Deployment) refers to standardised frameworks in Checkatrade that automate the processes of building, testing, and deploying software applications. It provides seamless integration with version control systems, facilitates collaboration among development teams, and enables efficient and reliable software delivery pipelines, ensuring faster time to market and higher software quality"
+    "description": "CI/CD as a service (Continuous Integration/Continuous Deployment) refers to standardised frameworks in Checkatrade that automate the processes of building, testing, and deploying software applications. It provides seamless integration with version control systems, facilitates collaboration among development teams, and enables efficient and reliable software delivery pipelines, ensuring faster time to market and higher software quality."
   },
   {
     "name": "Zero trust segmentation",
     "ring": "adopt",
     "quadrant": "techniques",
     "isNew": "TRUE",
-    "description": "Zero Trust Segmentation for applications extends the principles of Zero Trust to application-level security. It involves segmenting applications into smaller components, enforcing access controls based on user identity, device posture, and other contextual factors. By implementing fine-grained access controls and monitoring, it reduces the risk of unauthorized access, lateral movement, and potential application-level breaches"
+    "description": "Zero Trust Segmentation for applications extends the principles of Zero Trust to application-level security. It involves segmenting applications into smaller components, enforcing access controls based on user identity, device posture, and other contextual factors. By implementing fine-grained access controls and monitoring, it reduces the risk of unauthorized access, lateral movement, and potential application-level breaches."
   },
   {
     "name": "Data Mesh",
@@ -119,11 +133,25 @@
     "description": "Google Cloud Platform (GCP) is a suite of cloud computing services provided by Google. It offers a wide range of tools and services for building, deploying, and managing applications and infrastructure in a scalable and secure manner. GCP provides services such as computing, storage, databases, AI/ML, networking, and more, enabling organizations to leverage the power of the cloud for their business needs."
   },
   {
+    "name": "Azure",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Azure is Microsoft's cloud computing platform, offering a wide range of services for building, deploying, and managing applications and services. It provides scalable computing power, storage, databases, AI/ML capabilities, and more. With its global presence, security features, and integration options, Azure empowers organizations to leverage the cloud for their business needs."
+  },
+  {
     "name": "Snyk",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "TRUE",
     "description": "Snyk is a developer-first security platform that helps identify and fix vulnerabilities in open-source libraries and container images. It integrates seamlessly into the development workflow, providing real-time vulnerability scanning, automated patching, and actionable insights to enhance the security posture of applications and infrastructure."
+  },
+  {
+    "name": "Darktrace",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Darktrace is an AI-powered cybersecurity platform that uses machine learning algorithms to detect and respond to cyber threats in real-time. It monitors network traffic, identifies anomalous behavior, and provides autonomous threat response to protect against advanced cyber attacks. Darktrace helps organizations defend their digital assets and safeguard against emerging threats."
   },
   {
     "name": "Retool",
@@ -137,7 +165,7 @@
     "ring": "assess",
     "quadrant": "platforms",
     "isNew": "TRUE",
-    "description": "Vertex AI is a machine learning platform offered by Google Cloud. It provides a unified and fully managed environment for developing, deploying, and scaling AI models. With features like AutoML, custom training, and pre-trained models, Vertex AI simplifies the machine learning workflow and enables organizations to harness the power of AI for their applications and services"
+    "description": "Vertex AI is a machine learning platform offered by Google Cloud. It provides a unified and fully managed environment for developing, deploying, and scaling AI models. With features like AutoML, custom training, and pre-trained models, Vertex AI simplifies the machine learning workflow and enables organizations to harness the power of AI for their applications and services."
   },
   {
     "name": "Mulesoft",
@@ -151,21 +179,28 @@
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Salesforce is a leading customer relationship management (CRM) platform that helps businesses manage their sales, marketing, and customer service operations. It provides a suite of cloud-based applications and tools for automating processes, tracking customer interactions, analyzing data, and fostering collaboration. Salesforce offers scalability, customization, and integration capabilities to drive business growth and improve customer experiences"
+    "description": "Salesforce is a leading customer relationship management (CRM) platform that helps businesses manage their sales, marketing, and customer service operations. It provides a suite of cloud-based applications and tools for automating processes, tracking customer interactions, analyzing data, and fostering collaboration. Salesforce offers scalability, customization, and integration capabilities to drive business growth and improve customer experiences."
   },
   {
     "name": "Zuora",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Zuora is a subscription management platform that helps businesses manage their subscription-based products and services. It offers capabilities for billing, payments, revenue recognition, and analytics, enabling organizations to streamline subscription operations, optimize pricing strategies, and drive recurring revenue growth"
+    "description": "Zuora is a subscription management platform that helps businesses manage their subscription-based products and services. It offers capabilities for billing, payments, revenue recognition, and analytics, enabling organizations to streamline subscription operations, optimize pricing strategies, and drive recurring revenue growth."
+  },
+  {
+    "name": "Cloudflare",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Cloudflare is a global cloud-based platform that provides a range of services to optimize and secure websites and applications. It offers content delivery network (CDN) services, DDoS protection, web application firewall (WAF), load balancing, DNS management, and other performance-enhancing features. Cloudflare improves website speed, availability, and security while reducing bandwidth costs."
   },
   {
     "name": "TypeScript",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "TypeScript is a statically typed superset of JavaScript that adds optional type annotations and compile-time type checking. It provides developers with enhanced tooling, improved code maintainability, and better error detection. TypeScript compiles to plain JavaScript, making it compatible with existing JavaScript codebases while adding static typing benefits"
+    "description": "TypeScript is a statically typed superset of JavaScript that adds optional type annotations and compile-time type checking. It provides developers with enhanced tooling, improved code maintainability, and better error detection. TypeScript compiles to plain JavaScript, making it compatible with existing JavaScript codebases while adding static typing benefits."
   },
   {
     "name": "Dotnet 6",
@@ -179,21 +214,21 @@
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "React is a popular JavaScript library for building user interfaces. It allows developers to create reusable UI components that update efficiently and declaratively. With its virtual DOM and component-based architecture, React simplifies UI development, improves performance, and enables building dynamic and interactive web applications with ease"
+    "description": "React is a popular JavaScript library for building user interfaces. It allows developers to create reusable UI components that update efficiently and declaratively. With its virtual DOM and component-based architecture, React simplifies UI development, improves performance, and enables building dynamic and interactive web applications with ease."
   },
   {
     "name": "React Native",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "React Native is a framework for building native mobile applications using JavaScript and React. It allows developers to write code once and deploy it across multiple platforms, including iOS and Android. With its cross-platform capabilities and reusable components, React Native enables efficient and rapid development of mobile apps"
+    "description": "React Native is a framework for building native mobile applications using JavaScript and React. It allows developers to write code once and deploy it across multiple platforms, including iOS and Android. With its cross-platform capabilities and reusable components, React Native enables efficient and rapid development of mobile apps."
   },
   {
     "name": "NextJS",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Next.js is a React framework for building server-side rendered (SSR) and statically generated (SSG) web applications. It offers features like automatic code splitting, server-side rendering, and static site generation. With built-in routing, API routes, and an intuitive file-based routing system, Next.js simplifies development and enables fast and scalable web applications"
+    "description": "Next.js is a React framework for building server-side rendered (SSR) and statically generated (SSG) web applications. It offers features like automatic code splitting, server-side rendering, and static site generation. With built-in routing, API routes, and an intuitive file-based routing system, Next.js simplifies development and enables fast and scalable web applications."
   },
   {
     "name": "Golang",
