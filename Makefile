@@ -1,6 +1,6 @@
 RADAR_VERSION=v1
-PROJECT_ID=${PROJECT_ID}
-DOCKER_REPOSITORY=europe-west2-docker.pkg.dev/${PROJECT_ID}/radar
+GOOGLE_PROJECT_ID=${PROJECT_ID}
+DOCKER_REPOSITORY=europe-west2-docker.pkg.dev/${GOOGLE_PROJECT_ID}/radar
 DOCKER_IMAGE=radar-redirect
 
 GIT_SHA_FETCH := $(shell git rev-parse HEAD | cut -c 1-8)
