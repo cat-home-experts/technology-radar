@@ -28,6 +28,55 @@
     "description": "GitHub Actions is a powerful workflow automation and CI/CD platform provided by GitHub. It enables developers to automate tasks, build, test, and deploy applications directly from their GitHub repositories. With a wide range of predefined actions and customizable workflows, GitHub Actions simplifies the software development process and enhances collaboration among development teams."
   },
   {
+    "name": "Bitrise",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Bitrise is a cloud-based continuous integration and delivery (CI/CD) platform for mobile app development. It automates build, test, and deployment processes, supporting iOS and Android applications. With features like code signing, device testing, and integrations with popular tools, Bitrise simplifies the mobile app development workflow and facilitates collaboration among teams."
+  },
+  {
+    "name": "Browserstack",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "BrowserStack is a cloud-based platform that provides real device and browser testing for web and mobile applications. It offers a comprehensive range of virtual machines and physical devices to perform cross-browser and cross-platform testing. With features like automated testing, debugging tools, and integrations, BrowserStack helps ensure seamless functionality and user experience across different environments."
+  },
+  {
+    "name": "K6",
+    "ring": "trial",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "k6 is an open-source load testing tool used to test the performance and scalability of web applications and APIs. It supports script creation in JavaScript, providing flexibility for test scenarios. With its simple CLI and rich metrics output, k6 allows developers to simulate realistic user loads and analyze application performance under stress conditions."
+  },
+  {
+    "name": "LuanchDarkly",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "LaunchDarkly is a feature management platform that enables organizations to control the release and targeting of features in their software applications. It provides feature flags, allowing developers to easily toggle features on/off for different user segments. With its robust feature management capabilities, LaunchDarkly helps teams deliver software faster, reduce risk, and provide personalized experiences to users."
+  },
+  {
+    "name": "Codigy",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Codigy is a tool for repository visualizations and understanding relations between code, it can also produce engineering metrics based on DORA and other metrics. It is a tool that can be used to understand the codebase and the relationships between the code."
+  },
+  {
+    "name": "Atlassian JIRA",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Jira is a widely used project management and issue tracking software by Atlassian. It helps teams plan, track, and manage projects and tasks. With features like customizable workflows, agile boards, reporting, and integration options, Jira facilitates collaboration, improves productivity, and provides visibility into the progress and status of projects.y"
+  },
+  {
+    "name": "Jenkins",
+    "ring": "hold",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Jenkins is an open-source automation server that allows teams to build, test, and deploy software applications. It offers a wide range of plugins, enabling continuous integration and continuous delivery (CI/CD) workflows. With its extensibility, scalability, and flexibility, Jenkins streamlines the software development process and automates repetitive tasks, enhancing productivity and quality."
+  },
+  {
     "name": "Event Driven Architecture",
     "ring": "adopt",
     "quadrant": "techniques",
@@ -40,6 +89,13 @@
     "quadrant": "techniques",
     "isNew": "TRUE",
     "description": "CI/CD as a service (Continuous Integration/Continuous Deployment) refers to standardised frameworks in Checkatrade that automate the processes of building, testing, and deploying software applications. It provides seamless integration with version control systems, facilitates collaboration among development teams, and enables efficient and reliable software delivery pipelines, ensuring faster time to market and higher software quality"
+  },
+  {
+    "name": "Zero trust segmentation",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "Zero Trust Segmentation for applications extends the principles of Zero Trust to application-level security. It involves segmenting applications into smaller components, enforcing access controls based on user identity, device posture, and other contextual factors. By implementing fine-grained access controls and monitoring, it reduces the risk of unauthorized access, lateral movement, and potential application-level breaches"
   },
   {
     "name": "Data Mesh",
@@ -138,6 +194,20 @@
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
     "description": "Next.js is a React framework for building server-side rendered (SSR) and statically generated (SSG) web applications. It offers features like automatic code splitting, server-side rendering, and static site generation. With built-in routing, API routes, and an intuitive file-based routing system, Next.js simplifies development and enables fast and scalable web applications"
+  },
+  {
+    "name": "Golang",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Go (or Golang) is a statically-typed, compiled programming language created by Google. It is designed for efficiency, simplicity, and concurrency. Go offers strong support for concurrent programming, a garbage collector, built-in tooling, and an extensive standard library, making it suitable for building scalable and performant software applications."
+  },
+  {
+    "name": "Python3",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Python 3 is a popular interpreted, high-level programming language known for its simplicity and readability. It offers a vast ecosystem of libraries and frameworks, making it versatile for various domains. With its easy syntax, dynamic typing, and support for multiple platforms, Python 3 is widely used for web development, data analysis, AI/ML, automation, and more."
   },
   {
     "name": "Ruby",
