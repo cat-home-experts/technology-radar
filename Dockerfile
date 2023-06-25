@@ -1,6 +1,11 @@
-FROM wwwthoughtworks/build-your-own-radar:latest
+FROM node:18-alpine
 
-ARG VERSION
+WORKDIR /usr/src/app
 
-ADD versions /opt/build-your-own-radar/files/versions
-RUN ln -s /opt/build-your-own-radar/files/versions/${VERSION}.json /opt/build-your-own-radar/files/latest.json
+COPY package*.json ./
+
+RUN npm install --only=production
+
+COPY app.js app.js
+
+CMD [ "npm", "start" ]

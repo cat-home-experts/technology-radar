@@ -1,0 +1,36 @@
+name: Deploy radar redirect to cloud run
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  PROJECT_ID: ${{ secrets.PROJECT_ID }}
+
+jobs:
+  deploy-infrastructure:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+
+    steps:
+      - uses: 'actions/checkout@v3'
+
+      - id: 'auth'
+        uses: 'google-github-actions/auth@v1'
+        with:
+          workload_identity_provider: 'projects/${{ secrets.PROJECT_NUMBER }}/locations/global/workloadIdentityPools/${{ secrets.WORKLOAD_POOL }}/providers/${{ secrets.WORKLOAD_PROVIDER }}'
+          service_account: 'github-actions@${{ secrets.PROJECT_ID }}.iam.gserviceaccount.com'
+
+      - run: gcloud auth configure-docker europe-west2-docker.pkg.dev
+
+      - name: build container
+        run: make build
+
+      - name: push container to artifact registry
+        run: make push
+
+      - name: deploy container to cloud run
+        run: make deploy

@@ -27,12 +27,17 @@ You need to follow this JSON structure to ensure the radar is generated correctl
 
 ## Running locally
 
-To run the radar locally you will have to run the following commands:
+To run the radar redirect locally you will have to run the following commands:
 
 ```bash
 make build
 make run
 ```
 
-Then when you open your browser at `http://localhost:8080` and paste in the json file you wish to test out. The files should
-be located at http://localhost:8080/files/version/version.json or http://localhost:8080/files/latest.json.
+Then when you open your browser at `http://localhost:8080`you will be redirected to the latest version described in the
+make file.
+
+## Deploying
+
+We use GHA to deploy new revisions of the redirect, it uses workload identity federation and a service account to run 
+deploy the application. 
