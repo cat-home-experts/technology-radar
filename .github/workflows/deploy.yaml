@@ -4,12 +4,14 @@ on:
   push:
     branches:
       - main
+    paths:
+      - Makefile
 
 env:
   PROJECT_ID: ${{ secrets.PROJECT_ID }}
 
 jobs:
-  deploy-infrastructure:
+  deploy-radar-redirect:
     runs-on: ubuntu-latest
     permissions:
       contents: 'read'

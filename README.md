@@ -40,4 +40,6 @@ make file.
 ## Deploying
 
 We use GHA to deploy new revisions of the redirect, it uses workload identity federation and a service account to run 
-deploy the application. 
+deploy the application. To deploy a new version of the redirect ensure you update the Makefile to point to the new version
+by changing the `RADAR_VERSION=vX` to your new version and commit the changes. This will trigger the GHA workflow to deploy 
+a new cloud run with updated environment variables to reflect the new version.

@@ -63,6 +63,13 @@
     "description": "MuleSoft is an integration platform that enables developers to connect applications, data, and devices across on-premises and cloud environments. It provides a unified platform for API management, data integration, and application integration, allowing organizations to build a connected enterprise. MuleSoft is used by the Platform team to integrate various systems and services within Checkatrade. All new development on the mulesoft platform should cease."
   },
   {
+    "name": "Salesforce",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Salesforce is a leading customer relationship management (CRM) platform that helps businesses manage their sales, marketing, and customer service operations. It provides a suite of cloud-based applications and tools for automating processes, tracking customer interactions, analyzing data, and fostering collaboration. Salesforce offers scalability, customization, and integration capabilities to drive business growth and improve customer experiences"
+  },
+  {
     "name": "TypeScript",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
