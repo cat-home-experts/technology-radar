@@ -23,5 +23,16 @@ You need to follow this JSON structure to ensure the radar is generated correctl
     "isNew": "TRUE/FALSE",
     "description": "Short description of the technology"
   }
-
 ```
+
+## Running locally
+
+To run the radar locally you will have to run the following commands:
+
+```bash
+make build
+make run
+```
+
+Then when you open your browser at `http://localhost:8080` and paste in the json file you wish to test out. The files should
+be located at http://localhost:8080/files/version/version.json or http://localhost:8080/files/latest.json.

@@ -28,25 +28,18 @@
     "description": "Data Mesh is an architectural approach that decentralizes data ownership and governance, treating data as a product. It advocates for self-serve data infrastructure, domain-oriented data teams, and data productization. Data Mesh aims to improve data quality, enable faster insights, and foster a culture of data-driven decision-making in organizations."
   },
   {
-    "name": "Google Cloud run",
+    "name": "Amazon Web Services",
     "ring": "adopt",
     "quadrant": "platforms",
-    "isNew": "TRUE",
-    "description": "Google Cloud Run is a serverless compute platform that enables developers to run containerized applications in a fully managed environment. It automatically scales based on demand, charges only for actual usage, and supports a wide range of programming languages. Cloud Run simplifies deployment and management, allowing developers to focus on building and shipping applications."
+    "isNew": "FALSE",
+    "description": "Amazon Web Services (AWS) is a comprehensive cloud computing platform offered by Amazon. It provides a vast array of services including computing power, storage, databases, AI/ML, networking, and more. With global data centers, scalability, and pay-as-you-go pricing, AWS enables organizations to build and deploy applications and services with flexibility, security, and reliability."
   },
   {
-    "name": "Google Cloud Functions",
+    "name": "Google Cloud Platform",
     "ring": "adopt",
     "quadrant": "platforms",
-    "isNew": "TRUE",
-    "description": "Google Cloud Functions is a serverless compute service that allows developers to run event-driven functions in a managed environment. It automatically scales based on incoming events, charges for actual usage, and supports multiple programming languages. Cloud Functions simplifies development, deployment, and maintenance, enabling rapid creation of serverless applications."
-  },
-  {
-    "name": "Google Cloud Functions",
-    "ring": "adopt",
-    "quadrant": "platforms",
-    "isNew": "TRUE",
-    "description": "Google Cloud Functions is a serverless compute service that allows developers to run event-driven functions in a managed environment. It automatically scales based on incoming events, charges for actual usage, and supports multiple programming languages. Cloud Functions simplifies development, deployment, and maintenance, enabling rapid creation of serverless applications."
+    "isNew": "FALSE",
+    "description": "Google Cloud Platform (GCP) is a suite of cloud computing services provided by Google. It offers a wide range of tools and services for building, deploying, and managing applications and infrastructure in a scalable and secure manner. GCP provides services such as computing, storage, databases, AI/ML, networking, and more, enabling organizations to leverage the power of the cloud for their business needs."
   },
   {
     "name": "Snyk",
