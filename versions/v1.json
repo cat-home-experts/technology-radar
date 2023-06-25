@@ -28,6 +28,13 @@
     "description": "GitHub Actions is a powerful workflow automation and CI/CD platform provided by GitHub. It enables developers to automate tasks, build, test, and deploy applications directly from their GitHub repositories. With a wide range of predefined actions and customizable workflows, GitHub Actions simplifies the software development process and enhances collaboration among development teams."
   },
   {
+    "name": "Codefresh",
+    "ring": "hold",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Codefresh is a continuous integration and delivery (CI/CD) platform designed for Docker and Kubernetes-based applications. It simplifies the development lifecycle by providing automated building, testing, and deployment processes. With features like reusable pipelines, environment management, and integrations, Codefresh helps teams streamline their software delivery pipelines and accelerate application development."
+  },
+  {
     "name": "Bitrise",
     "ring": "adopt",
     "quadrant": "tools",
@@ -42,11 +49,25 @@
     "description": "BrowserStack is a cloud-based platform that provides real device and browser testing for web and mobile applications. It offers a comprehensive range of virtual machines and physical devices to perform cross-browser and cross-platform testing. With features like automated testing, debugging tools, and integrations, BrowserStack helps ensure seamless functionality and user experience across different environments."
   },
   {
+    "name": "PowerBI",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Power BI is a business intelligence and data visualization platform by Microsoft. It enables users to connect, transform, and visualize data from various sources into interactive reports and dashboards. With its rich set of tools and capabilities, Power BI empowers organizations to gain insights, make data-driven decisions, and share information effectively."
+  },
+  {
     "name": "K6",
     "ring": "trial",
     "quadrant": "tools",
     "isNew": "TRUE",
     "description": "k6 is an open-source load testing tool used to test the performance and scalability of web applications and APIs. It supports script creation in JavaScript, providing flexibility for test scenarios. With its simple CLI and rich metrics output, k6 allows developers to simulate realistic user loads and analyze application performance under stress conditions."
+  },
+  {
+    "name": "Kubernetes",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It provides features like automatic scaling, load balancing, self-healing, and service discovery. With Kubernetes, organizations can effectively manage and run applications in a resilient, scalable, and portable manner across various environments."
   },
   {
     "name": "LuanchDarkly",
@@ -145,6 +166,13 @@
     "quadrant": "platforms",
     "isNew": "TRUE",
     "description": "Snyk is a developer-first security platform that helps identify and fix vulnerabilities in open-source libraries and container images. It integrates seamlessly into the development workflow, providing real-time vulnerability scanning, automated patching, and actionable insights to enhance the security posture of applications and infrastructure."
+  },
+  {
+    "name": "Datadog",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Datadog is a monitoring and analytics platform that provides real-time insights into the performance and health of IT infrastructure, applications, and services. It offers monitoring, alerting, and visualization features, enabling organizations to optimize system performance, detect issues, and troubleshoot problems efficiently, ensuring reliable and efficient operation of their digital systems."
   },
   {
     "name": "Darktrace",
