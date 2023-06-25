@@ -14,11 +14,32 @@
     "description": "GitHub Copilot is an AI-powered coding assistant developed by OpenAI and GitHub. It provides real-time code suggestions and auto-completion based on context, allowing developers to write code faster and more efficiently by leveraging machine learning models trained on vast code repositories. It is currently in technical preview and only available to a limited number of users."
   },
   {
+    "name": "ChatGPT",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "ChatGPT is an AI language model developed by OpenAI. It uses deep learning techniques to generate human-like text responses in conversational contexts. Trained on a vast amount of data, ChatGPT can understand and generate text across various topics, making it useful for a wide range of applications such as chatbots, content generation, and language assistance."
+  },
+  {
+    "name": "Github Actions",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "GitHub Actions is a powerful workflow automation and CI/CD platform provided by GitHub. It enables developers to automate tasks, build, test, and deploy applications directly from their GitHub repositories. With a wide range of predefined actions and customizable workflows, GitHub Actions simplifies the software development process and enhances collaboration among development teams."
+  },
+  {
     "name": "Event Driven Architecture",
     "ring": "adopt",
     "quadrant": "techniques",
     "isNew": "FALSE",
     "description": "Event-driven architecture (EDA) is a software design pattern that emphasizes the production, detection, and consumption of events. Events represent significant occurrences or changes in a system, and components communicate by publishing and subscribing to events. EDA promotes loose coupling, scalability, and flexibility, enabling systems to react and respond to events in a decoupled and asynchronous manner. It allows for event-driven workflows, real-time processing, and easier integration with external systems and services."
+  },
+  {
+    "name": "CI/CD as service",
+    "ring": "assess",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "CI/CD as a service (Continuous Integration/Continuous Deployment) refers to standardised frameworks in Checkatrade that automate the processes of building, testing, and deploying software applications. It provides seamless integration with version control systems, facilitates collaboration among development teams, and enables efficient and reliable software delivery pipelines, ensuring faster time to market and higher software quality"
   },
   {
     "name": "Data Mesh",
@@ -56,6 +77,13 @@
     "description": "Retool is a low-code development platform that empowers users to build internal tools quickly. It offers a drag-and-drop interface to create custom applications, dashboards, and workflows that connect to various data sources. Retool enables teams to streamline workflows, improve operational efficiency, and enhance data-driven decision-making within their organizations."
   },
   {
+    "name": "VertexAI",
+    "ring": "assess",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Vertex AI is a machine learning platform offered by Google Cloud. It provides a unified and fully managed environment for developing, deploying, and scaling AI models. With features like AutoML, custom training, and pre-trained models, Vertex AI simplifies the machine learning workflow and enables organizations to harness the power of AI for their applications and services"
+  },
+  {
     "name": "Mulesoft",
     "ring": "hold",
     "quadrant": "platforms",
@@ -70,6 +98,13 @@
     "description": "Salesforce is a leading customer relationship management (CRM) platform that helps businesses manage their sales, marketing, and customer service operations. It provides a suite of cloud-based applications and tools for automating processes, tracking customer interactions, analyzing data, and fostering collaboration. Salesforce offers scalability, customization, and integration capabilities to drive business growth and improve customer experiences"
   },
   {
+    "name": "Zuora",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Zuora is a subscription management platform that helps businesses manage their subscription-based products and services. It offers capabilities for billing, payments, revenue recognition, and analytics, enabling organizations to streamline subscription operations, optimize pricing strategies, and drive recurring revenue growth"
+  },
+  {
     "name": "TypeScript",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
@@ -77,11 +112,32 @@
     "description": "TypeScript is a statically typed superset of JavaScript that adds optional type annotations and compile-time type checking. It provides developers with enhanced tooling, improved code maintainability, and better error detection. TypeScript compiles to plain JavaScript, making it compatible with existing JavaScript codebases while adding static typing benefits"
   },
   {
-    "name": "dotnet 6",
+    "name": "Dotnet 6",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
     "description": ".NET is a free, open-source framework for building various applications. It offers cross-platform support, performance improvements, enhanced APIs, and tooling for developing web, mobile, desktop, cloud, and IoT applications."
+  },
+  {
+    "name": "React",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "React is a popular JavaScript library for building user interfaces. It allows developers to create reusable UI components that update efficiently and declaratively. With its virtual DOM and component-based architecture, React simplifies UI development, improves performance, and enables building dynamic and interactive web applications with ease"
+  },
+  {
+    "name": "React Native",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "React Native is a framework for building native mobile applications using JavaScript and React. It allows developers to write code once and deploy it across multiple platforms, including iOS and Android. With its cross-platform capabilities and reusable components, React Native enables efficient and rapid development of mobile apps"
+  },
+  {
+    "name": "NextJS",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Next.js is a React framework for building server-side rendered (SSR) and statically generated (SSG) web applications. It offers features like automatic code splitting, server-side rendering, and static site generation. With built-in routing, API routes, and an intuitive file-based routing system, Next.js simplifies development and enables fast and scalable web applications"
   },
   {
     "name": "Ruby",
