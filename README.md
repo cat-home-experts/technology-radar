@@ -1,7 +1,7 @@
 # technology-radar
 
 Describing all of Checkatrade technology in one place, based on the work from ThoughtWorks. To understand how to use 
-this repository, please read the [original article](https://www.thoughtworks.com/radar/how-to).
+this repository, please read the [original article](https://www.thoughtworks.com/radar/byor).
 
 ## Releases
 
