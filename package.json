@@ -8,6 +8,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@google-cloud/functions-framework": "^3.2.1"
+    "@google-cloud/functions-framework": "^3.3.0"
   }
 }
